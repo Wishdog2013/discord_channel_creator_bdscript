@@ -1,0 +1,14 @@
+// copy and paste into your BDScript editor //
+$nomention
+
+$createChannel[$message[1];$message[2];$message[3]]
+$onlyAdmin[Hey! Sorry but you can't use this command, this command is for admin only. Have a great day!]
+$title[Your channel has been created!]
+$description[Your request of creating "$message[1]" $message[2] channel has been created!]
+$addTimestamp
+$footer[Requested by $username]
+$argsCheck[>1;You have to follow this example: m.creatchannel *{channels name} *{channels type} {category id}
+("*" is required)]
+$authorIcon[$authorAvatar]
+$color[f0067]
+$thumbnail[$authorAvatar]
